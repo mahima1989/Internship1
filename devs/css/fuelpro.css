@@ -1,0 +1,827 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a .io{
+  display: none;
+}
+.container-fluid{
+  padding: 7% 15%;
+  margin: 0;
+}
+#title1{
+    background-color: #ff4c68;
+  padding: 5px auto 20px;
+  color: white;
+
+}
+
+
+#main{
+  background-image: url('https://dwkujuq9vpuly.cloudfront.net/news/wp-content/uploads/2020/04/Empty-petrol-station-main_new.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+background-position: 65% 52%;
+  color:white;
+  padding-bottom:80px;
+}
+#main h1{
+font-size: 1.5rem;
+}
+.heading{
+    margin:280px 0px 50px 0px;
+  font-family: "Montserrat";
+  background-color:#fc8210;
+  display: inline-block;
+  position: relative;
+  right:14px;
+  padding: 20px;
+  top:100px;
+
+}
+#main2{
+  margin-top: 150px;
+  position: relative;
+}
+
+.peeps{
+  height:580px;
+  float: left;
+  width:980px;
+
+
+
+}
+.peepshead{
+  text-align: left;
+color:#ff5200;
+position: absolute;
+left:598px;
+height: 400px;
+top:290px;
+background-color: white;
+display: inline-block;
+padding: 50px 20px;
+width: 750px;
+
+
+}
+.peepshead h1{
+  font-size: 3.4rem;
+  margin-left: 200px;
+}
+.peepshead p{
+  font-size:1.1875rem;
+  color: #666;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+#main3{
+  background-color: #fc8210;
+  display: block;
+    padding-bottom: 80px;
+}
+
+.c{
+  content: "";
+  clear: both;
+}
+.ic{
+  margin-top: 200px;
+  text-align: left;
+  padding-top:100px;
+}
+.sic{
+  margin-top: 0px;
+  text-align: left;
+  padding-top:100px;
+}
+#main3 i{
+  font-size: 50px;
+
+}
+
+.sic h1,.ic h1{
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+    font-family: "Montserrat";
+}
+.sic p,.ic p{
+  font-size: 12px;
+  color: white;
+    font-family: "Montserrat";
+}
+
+.circle-icon {
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 25px 25px;
+    margin: 2px 50px;
+    border:solid #fff;
+
+}
+#main4{
+  padding: 0px 0px;
+  margin-top: 0px;
+  position: relative;
+  margin-bottom: 300px;
+
+}
+.foot-img{
+  height: 450px;
+  position: absolute;
+  top:150px;
+}
+.foot-head{
+  
+  background-color: #fc8210;
+  color: white;
+  width: 56%;
+  position: relative;
+  top:200px;
+  padding: 120px 130px;
+  z-index:-1;
+  height: 440px;
+
+  left:600px;
+
+}
+#main4 h1,#main4 p{
+  margin-left: 100px;
+}
+.container-fluid{
+  padding: 4% 2%;
+}
+
+
+
+
+/*
+footer */
+
+#footer{
+background:#f9f6f7;
+color:#ff5200;
+position: relative;
+/* padding-bottom: 50px;
+padding-top: 50px; */
+}
+
+
+#footer h1{
+  font-size: 25px;
+}
+ .loc{
+   position: relative;
+   top:25px;
+ }
+.l1{
+  margin-top: 20px;
+}
+.l1 p{
+  margin-left: 40px;
+}
+#footer p{
+  color: grey;
+}
+
+.l2{
+  margin: 0;
+}
+.loc2{
+
+  color:grey ;
+
+
+}
+.l2 p{
+  position: relative;
+  bottom:24px;
+  margin-left: 40px;
+}
+
+
+.l3{
+  margin: 0px;
+  position: relative;
+  bottom:24px;
+}
+.l3 p{
+  position: relative;
+  bottom:24px;
+  margin-left: 40px;
+}
+.l4{
+  margin: 0px;
+  position: relative;
+  bottom:50px;
+}
+.l4 p{
+  position: relative;
+  bottom:24px;
+  margin-left: 40px;
+}
+
+
+.k1{
+  text-align:center;
+}
+.k1 p{
+  text-align: left;
+  position: relative;
+  left:23px;
+  top:40px;
+}
+.k2{
+margin-top: 60px;
+/* text-align: center;
+margin-left: 22px; */
+
+}
+.k3{
+
+  font-size: 25px;
+  margin: 5px;
+
+}
+#footer h2{
+  font-size: 16px;
+  color: grey;
+  text-align: center;
+
+}
+.p0{
+  margin:50px 0px;
+}
+/* media queries */
+@media screen and (max-width:995px){
+
+  a .io{
+    display: inline;
+font-size:24px;
+margin: 5px;
+
+  }
+}
+@media screen and (max-width:900px){
+  #main{
+    background-image: url('https://dwkujuq9vpuly.cloudfront.net/news/wp-content/uploads/2020/04/Empty-petrol-station-main_new.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+
+
+    color:white;
+    padding: 0;
+  }
+  #main h1{
+  font-size: 1.3rem;
+  }
+  .heading{
+      margin:280px 0px 50px 0px;
+    font-family: "Montserrat";
+    background-color:#fc8210;
+    display: inline-block;
+    position: relative;
+    right:14px;
+    padding: 20px;
+    top:80px;
+
+  }
+}
+@media screen and (max-width:720px)
+{
+  #main{
+    background-image: url('https://dwkujuq9vpuly.cloudfront.net/news/wp-content/uploads/2020/04/Empty-petrol-station-main_new.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+      color:white;
+    padding: 0;
+  }
+  #main h1{
+  font-size: 1rem;
+  }
+  .heading{
+      margin:280px 0px 50px 0px;
+    font-family: "Montserrat";
+    background-color:#fc8210;
+    display: inline-block;
+    position: relative;
+    right:14px;
+    padding: 20px;
+    top:80px;
+
+  }
+}
+@media screen and (max-width:1250px){
+  .peeps{
+    height:580px;
+    float: left;
+    width:980px;
+
+
+
+  }
+  .peepshead{
+    text-align: left;
+color:#ff5200;
+  position: absolute;
+  left:400px;
+  height: 400px;
+  top:290px;
+  background-color: white;
+  display: inline-block;
+  padding: 50px 20px;
+  width: 750px;
+
+
+  }
+  .peepshead h1{
+    font-size: 3.4rem;
+    margin-left: 200px;
+  }
+  .peepshead p{
+    font-size:1.1875rem;
+    color: #666;
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width:1100px){
+  .peeps{
+    height:550px;
+    float: left;
+    width:700px;
+
+
+
+  }
+  .peepshead{
+    text-align: left;
+color:#ff5200;
+  position: absolute;
+  left:500px;
+  height: 300px;
+  top:290px;
+  background-color: white;
+  display: inline-block;
+  padding: 50px 20px;
+  width: 450px;
+
+
+  }
+  .peepshead h1{
+    font-size: 2rem;
+    margin-left: 100px;
+  }
+  .peepshead p{
+    font-size:1rem;
+    color: #666;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width:895px){
+  .peeps{
+    height:400px;
+    float: left;
+    width:600px;
+
+
+
+  }
+  .peepshead{
+    text-align: left;
+  color:#ff5200;
+  position: absolute;
+  left:400px;
+  height: 300px;
+  top:290px;
+  background-color: white;
+  display: inline-block;
+  padding: 50px 20px;
+  width: 450px;
+
+
+  }
+  .peepshead h1{
+    font-size: 2rem;
+    margin-left: 100px;
+  }
+  .peepshead p{
+    font-size:1rem;
+    color: #666;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width:960px){
+.peepshead{
+  text-align: left;
+color:#ff5200;
+position: absolute;
+left:300px;
+height: 300px;
+top:290px;
+background-color: white;
+display: inline-block;
+padding: 50px 20px;
+width: 450px;
+
+
+}
+.peepshead h1{
+  font-size: 2rem;
+  margin-left: 85px;
+}
+.peepshead p{
+  font-size:1rem;
+  color: #666;
+  margin-left: 85px;
+  margin-top: 10px;
+}
+}
+
+/* @media screen and (max-width:540px){
+.peepshead{
+  text-align: left;
+color:#0078d4;
+position: absolute;
+left:50px;
+height: 300px;
+top:290px;
+background-color: white;
+display: inline-block;
+padding: 50px 20px;
+width: 450px;
+
+
+}
+} */
+@media screen and (max-width:700px){
+  .peeps{
+    height:400px;
+    float: left;
+    width:500px;
+
+
+
+  }
+
+
+.peepshead{
+  text-align: left;
+color:#ff5200;
+position: absolute;
+left:40px;
+height: 250px;
+top:290px;
+background-color: white;
+display: inline-block;
+padding: 50px 20px;
+width: 480px;
+
+
+}
+}
+@media screen and (max-width:768px){
+  #main3{
+    background-color: #fc8210;
+    display: block;
+      padding-bottom: 80px;
+      text-align: center;
+  }
+  .ic{
+    margin-top: 200px;
+    text-align: center;
+    padding-top:100px;
+  }
+  .sic{
+    margin-top: 0px;
+    text-align: center;
+    padding-top:100px;
+  }
+  #main3 i{
+    font-size: 50px;
+
+  }
+
+  .sic h1,.ic h1{
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+      font-family: "Montserrat";
+  }
+  .sic p,.ic p{
+    font-size: 12px;
+    color: white;
+      font-family: "Montserrat";
+      text-align: left;
+      margin-left: 100px;
+
+  }
+
+  .circle-icon {
+      background: #fff;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 100px;
+      vertical-align: middle;
+      padding: 25px 25px;
+      margin: 2px 50px;
+      border:solid #fff;
+
+  }
+}
+
+@media screen and (max-width:1250px){
+  #main4{
+    padding: 0px 0px;
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 300px;
+
+  }
+  .foot-img{
+    height: 400px;
+    position: absolute;
+    top:150px;
+  }
+  .foot-head{
+    /* float: right; */
+    background-color: #fc8210;
+    color: white;
+    width: 56%;
+    position: relative;
+    top:200px;
+    padding: 100px 110px;
+    z-index:-1;
+    height: 410px;
+
+    left:550px;
+
+  }
+  #main4 h1,#main4 p{
+    margin-left: 100px;
+  }
+}
+
+
+@media screen and (max-width:1105px){
+  #main4{
+    padding: 0px 0px;
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 300px;
+
+  }
+  .foot-img{
+    height: 360px;
+    position: absolute;
+    top:150px;
+  }
+  .foot-head{
+    /* float: right; */
+    background-color: #fc8210;
+    color: white;
+    width: 56%;
+    position: relative;
+    top:200px;
+    padding: 80px 90px;
+    z-index:-1;
+    height: 390px;
+
+    left:480px;
+
+  }
+  #main4 h1,#main4 p{
+    margin-left: 100px;
+  }
+}
+
+
+@media screen and (max-width:1105px){
+  #main4{
+    padding: 0px 0px;
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 300px;
+
+  }
+  .foot-img{
+    height: 360px;
+    position: absolute;
+    top:150px;
+  }
+  .foot-head{
+    /* float: right; */
+    background-color: #fc8210;
+    color: white;
+    width: 56%;
+    position: relative;
+    top:200px;
+    padding: 70px 70px;
+    z-index:-1;
+    height: 370px;
+
+    left:480px;
+
+  }
+  #main4 h1,#main4 p{
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width:990px){
+  #main4{
+    padding: 0px 0px;
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 300px;
+
+  }
+  .foot-img{
+    height: 340px;
+    position: absolute;
+    top:150px;
+  }
+  .foot-head{
+    /* float: right; */
+    background-color:#fc8210;
+    color: white;
+    width: 56%;
+    position: relative;
+    top:200px;
+    padding: 70px 50px;
+    z-index:-1;
+    height: 370px;
+
+    left:480px;
+
+  }
+  #main4 h1,#main4 p{
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width:943px){
+  #main4{
+    padding: 0px 0px;
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 300px;
+
+  }
+  .foot-img{
+    height: 340px;
+    position: absolute;
+    top:150px;
+  }
+  .foot-head{
+    /* float: right; */
+    background-color:#fc8210;
+    color: white;
+    width: 50%;
+    position: relative;
+    top:200px;
+    padding: 70px 30px;
+    z-index:-1;
+    height: 370px;
+
+    left:480px;
+
+  }
+  #main4 h1,#main4 p{
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width:890px){
+  #main4{
+    padding: 0px 0px;
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 300px;
+
+  }
+  .foot-img{
+    height: 300px;
+    position: absolute;
+    top:150px;
+  }
+  .foot-head{
+    /* float: right; */
+    background-color: #fc8210;
+    color: white;
+    width: 56%;
+    position: relative;
+    top:200px;
+    padding: 40px 50px;
+    z-index:-1;
+    height: 370px;
+
+    left:380px;
+
+  }
+  #main4 h1,#main4 p{
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width:790px){
+  #main4{
+    padding: 0px 0px;
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 300px;
+
+  }
+  .foot-img{
+    height: 300px;
+    position: absolute;
+    top:150px;
+  }
+  .foot-head{
+    /* float: right; */
+    background-color:#fc8210;
+    color: white;
+    width: 100%;
+    position: relative;
+    top:400px;
+    padding: 60px 100px ;
+    z-index:-1;
+    height: 400px;
+
+    left:20px;
+
+  }
+  #main4 h1,#main4 p{
+    margin-left: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:991px){
+  #footer h1{
+    text-align: left;
+  }
+  #footer p{
+    width:50%;
+  }
+  .k2{
+    text-align: left;
+    margin-top: 60px;
+  margin-left: 12px;
+  }
+  .k1 h1{
+    margin-left:25px;
+  }
+  .hav{
+    margin-left: 25px;
+  }
+  .l1,.l2,.l3,.l4{
+    margin-left:25px;
+  }
+  .map{
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width:800px){
+  #footer{
+    margin-top: 600px;
+  }
+  #footer h1{
+    text-align: left;
+  }
+  #footer p{
+    width:50%;
+  }
+  .k2{
+    text-align: left;
+    margin-top: 60px;
+  margin-left: 12px;
+  }
+  .k1 h1{
+    margin-left:25px;
+  }
+  .hav{
+    margin-left: 25px;
+  }
+  .l1,.l2,.l3,.l4{
+    margin-left:25px;
+  }
+  .map{
+    margin-left: 25px;
+  }
+}
